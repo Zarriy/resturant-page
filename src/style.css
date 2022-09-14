@@ -1,11 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
 
-.hello {
-  color: #07453d;
-  font-family: "Maven Pro", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
-.yes {
-  color: #2e0d6b;
+a {
+  text-decoration: none;
+  color: rgb(45, 96, 137);
+}
+.nav-bar {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 70px;
+  align-items: center;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  color: #fff;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.nav-items ul a {
+  text-decoration: none;
+  color: #fff;
+}
+.hero-section {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  position: relative;
+}
+.hero-text {
+  margin: 110px 0px;
+  margin-left: 80px;
+}
+.hero-text h1 {
   font-family: "Cinzel Decorative";
+  font-weight: 700;
+  font-size: 48px;
+}
+.hero-text p {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+  line-height: 150%;
+  color: #dad5d5;
+  font-weight: 400;
+}
+.hero-text button {
+  border: none;
+  margin-top: 60px;
+  padding: 14px 28px;
+  font-size: 18px;
+
+  background-color: #ffc300;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-text button:hover {
+  background-color: #e3b51b;
+}
+.hero-img img {
+  margin-top: 60px;
+}
+footer {
+  background-color: #ffd60a;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 60px;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 500;
+}
+footer p {
+  font-size: 12px;
 }
