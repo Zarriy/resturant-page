@@ -9,7 +9,7 @@ export default function headerCreator() {
   const div1 = document.createElement("div");
   div1.classList.add("logo-div");
   div1.innerHTML =
-    '<img src="/src/r-logo@2x.png" alt="Logo for Spoon feed" width="120px"  height="auto" />;';
+    '<img src="./images/r-logo@2x.png" alt="Logo for Spoon feed" width="120px"  height="auto" />;';
 
   //creating nav bar
   const div2 = document.createElement("div");

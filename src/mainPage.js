@@ -24,7 +24,7 @@ export default function heroArea() {
   const imgDiv = document.createElement("div");
   imgDiv.classList.add("hero-img");
   imgDiv.innerHTML =
-    '<img src="/src/hero-img.png" alt="Healthy Food for healthy people" width="460px" height="auto" />';
+    '<img src="./images/hero-img.png" alt="Healthy Food for healthy people" width="460px" height="auto" />';
 
   SkeltonDiv.appendChild(heroA);
   heroA.appendChild(textDiv);
