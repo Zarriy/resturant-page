@@ -7,6 +7,8 @@ module.exports = {
     mainPage: "./src/mainPage.js",
     menuPage: "./src/menu.js",
     contact: "./src/contact.js",
+    footer: "./src/footer.js",
+    header: "./src/header.js",
   },
   devtool: "inline-source-map",
   output: {
