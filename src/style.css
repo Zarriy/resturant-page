@@ -81,3 +81,104 @@ footer {
 footer p {
   font-size: 12px;
 }
+
+/*********
+** Menu page **
+***********/
+
+.menu {
+  padding: 80px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.menu h1 {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-size: 38px;
+  margin-bottom: 48px;
+}
+.menus {
+  display: grid;
+  grid-template-columns: 340px 340px;
+  gap: 40px;
+  justify-content: center;
+}
+.menu-item {
+  background-color: #ffc300;
+  width: 340px;
+  height: 260px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 18px 2px rgba(255, 255, 255, 0.407);
+  transition: transform 200ms ease-in;
+  position: relative;
+}
+.menu-item:hover {
+  transform: scale(1.1);
+}
+.item-1 {
+  background-image: url(https://images.food52.com/7f0yncraWeYUJG_lLbH2ie1xd6g=/2016x1344/d815e816-4664-472e-990b-d880be41499f--chicken-biryani-recipe.jpg);
+  background-size: cover;
+}
+.item-2 {
+  background-image: url(https://fatimacooks.net/wp-content/uploads/2020/02/IMG_1872-scaled.jpg);
+  background-size: cover;
+  background-position: 20%;
+}
+.item-3 {
+  background-image: url(https://static.toiimg.com/thumb/58624208.cms?width=1200&height=900);
+  background-size: cover;
+}
+.item-4 {
+  background-image: url(https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-size: cover;
+  background-position: 50%;
+}
+.menu-item h2 {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #37cd26;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 500;
+}
+
+/* Contact Section*/
+
+.contact-section {
+  background-color: #000;
+  padding: 120px 0;
+  text-align: center;
+  color: #fff;
+  height: 50vh;
+}
+.contact-section h1 {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-size: 40px;
+}
+.contact-data {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-data address {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 20px;
+  position: relative;
+}
+.contact-data address ion-icon {
+  font-size: 44px;
+  position: absolute;
+  top: -50%;
+  left: 25%;
+  color: #ffc300;
+}
+.contact-data a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Maven Pro";
+  font-size: 22px;
+}
+.contact-data a ion-icon {
+  color: #ffc300;
+}

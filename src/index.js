@@ -1,5 +1,6 @@
 import heroArea from "./mainPage";
-
+import menuAdd from "./menu";
+import ContactPage from "./contact";
 import "./style.css";
 
 // creating the complete page in index.js
@@ -25,17 +26,20 @@ function headerCreator() {
   // creating ul item
   const menubar = document.createElement("ul");
   menubar.innerHTML =
-    "<li><a href='#'>Home</a></li> <li><a href='#'>Menu</a></li> <li><a href='#'>Contact</a></li>";
+    "<li data-link='1' class='active'><a href='#'>Home</a></li> <li data-link='2'><a href='#'>Menu</a></li> <li data-link='3'><a href='#'>Contact</a></li>";
 
   SkeltonDiv.appendChild(header);
   header.appendChild(div1);
   header.appendChild(div2);
   div2.appendChild(menubar);
 }
+headerCreator();
 
 // creating hero area
-headerCreator();
+
 heroArea();
+menuAdd();
+ContactPage();
 
 // footer Section
 const footer = function () {
