@@ -18,7 +18,7 @@ export default function headerCreator() {
   // creating ul item
   const menubar = document.createElement("ul");
   menubar.innerHTML =
-    "<li data-link='1'><a href='#'>Home</a></li> <li data-link='2'><a href='#'>Menu</a></li> <li data-link='3'><a href='#'>Contact</a></li>";
+    "<li data-link='1' ><a href='#' class='main-link'>Home</a></li> <li data-link='2' ><a href='#' class='main-link'>Menu</a></li> <li data-link='3'><a href='#' class='main-link'>Contact</a></li>";
 
   SkeltonDiv.appendChild(header);
   header.appendChild(div1);

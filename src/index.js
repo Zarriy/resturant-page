@@ -8,7 +8,8 @@ import "./style.css";
 // creating the complete page in index.js
 // running
 const SkeltonDiv = document.querySelector(".content");
-// footer Section
+// link selection
+headerCreator();
 
 const home = function () {
   SkeltonDiv.innerHTML = "";
@@ -34,28 +35,11 @@ const contact = function () {
   footer();
 };
 
-// callhome
+// display Home
 home();
 
-// selecting nav links
-// const navLinks = document.querySelectorAll("li[data-link]");
-
-// navLinks.forEach((el) => {
-//   el.addEventListener("click", function () {
-//     if (el.textContent === "Home") {
-//       home();
-//     }
-//     if (el.textContent === "Menu") {
-//       menu();
-//     }
-//     if (el.textContent === "Contact") {
-//       contact();
-//     }
-//   });
-// });
 document.addEventListener("click", function (e) {
   const target = e.target.innerText;
-  console.log(target);
   if (target === "Home") {
     home();
   }
